@@ -19,7 +19,8 @@ cd GSW-C-master/
 $CC $CFLAGS -fPIC -c -O3 -Wall  gsw_oceanographic_toolbox.c gsw_saar.c
 if [ $target = "x86_64-w64-mingw32" ] || [ $target = "i686-w64-mingw32" ] || [ $target = "x86_64-apple-darwin14" ]; then   LD=$CC; elif [ $target = "x86_64-unknown-freebsd11.1" ]; then   LD=ld; fi
 $LD $LDFLAGS -fPIC -shared -o libgswteos-10.$dlext gsw_oceanographic_toolbox.o gsw_saar.o -lm
-cp libgswteos-10.$dlext $prefix
+mkdir $prefix/lib/
+cp libgswteos-10.$dlext $prefix/lib/
 """
 
 # These are the platforms we will build for by default, unless further
