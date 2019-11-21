@@ -2,8 +2,8 @@
 # `julia build_tarballs.jl --help` to see a usage message.
 using BinaryBuilder
 
-name = "GSWCBuilder"
-version = v"0.0.0"
+name = "GSWC"
+version = v"3.0.5"
 
 # Collection of sources required to build GSWCBuilder
 sources = [
