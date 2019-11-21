@@ -30,7 +30,7 @@ deploy:
     api_key:
         # Note; this api_key is only valid for kouketsu/GSWCBuilder; you need
         # to make your own: https://docs.travis-ci.com/user/deployment/releases/
-        secure: Wao04E0Y8rFhtuovpoBQlyj0W9Qs8JLdetL8qKnDpSwcgUs1+cCSy+8/SMCTAvErkqS8B8C1g8eay1YkFh3Y+DJesQPBB/VupZ+qAnAV8Zohh6W/m1RGvNpncglk5tHWG7BMpc02TauJ6BeVzyG1iXOPxXJ3Yr2DjBCJk6AXpBi1IaIvOS4XYqYb8aAtD/rbGAtGhIt/e80qc9+6YCOLSPf08q2uzYTof3scVEHpOMDUelUqyHwHiKLv1QcWDzRm1e70k03qvcbLWTSnhuy4PXMZnFs3TglkSlNmMtDHu57XzCNRc40Jj8OEE58zEQATml2cXyd3OEcs2AokSYEk5b4edk2jYfDfCSLC/qLxRcfleek1kzuu2ftMOaDsQTRCbbXdNEGdAWobIZ/LetCTfsQ5/ETurwX9A+i+b2LaTqw3yrzOCXemnXAbWKqRLGaZBRAk1Cyss1FuUdVgjgP3mbrhgCpB94ZKBmWZY4NI0duim7G6PH8aiZktbVgd39UkSEnTZ+z/4Jz4KRhbtZBGFBlqZU4sMLhxHMNfxYSb5WMv3P+6M6/YftyXc0Kwg2kva5IpbeCdV7bA/dLcVTLkyYrTF+fuQ/09K67RdFgL2SbadMGWI1NM9vTqcx69YjOxF84rkISlh6h8k6EUkkd8bfCJ/E9RtdAug2nUrE2k8dI=
+        secure: gn/82Fe3UyqtAsHZBHxBT0yhomoPDYpKeQSbHfFnid+SBIM+PfWqsKQCj+76qJCgPIJLZ06ZKyihoh4OWNenvhlP2Ix78rZ/QWOPyuEcvzgn6bGweSGO7fzpU/lx79YnO6brYuoEzbYiTyw5jSlvY5ia59/44c6ghpzkIENa99Ca3A9j/XRV1p9FDKad38Hc91DmJBARYNmEfC8a8fIw4QJ1Z4iDIL9P0bYvdD+iMnGSnZligQkclHdWFJY+8J9Bwf9tz5siDvzHXSS5dIK0EyEXNd1OfbIYERBQO8XAinEKZMXmr3LxG9EV+NO03lwi2vY2jmuZ4tOvzQOEfon6kvTxsjGTTUPUjNCjAUcomO+NoyedkcQ8kZAPVzRZMR7gI15KieUpZveFuZGF/TNHH3XaSQc1E9/MJXqwkdq6ycs2OX1MhXhRDbLMxRJhGYteYyKVMMVIIJDfFzj0FY7T6Qd5yVx+74aQA/J/heCfJXzamDcETw7RMV3rjxDCWwa4g4HtoMVt4foLiuS4dxrJ/n36mP2aCluK02DW85MKN2SgepMv0ZBboDJMqdJpMsKkbVoGPNANVbr37CvU9RFxLfkJoG+xL7SSrbQretoHX63NiVvgz0rfmDEQr0G/qeSdZKs9U55Y0823dNWJ3RIzOmHFf6/OCIsk2BerqV3cvs4=
     file_glob: true
     file: products/*
     skip_cleanup: true
